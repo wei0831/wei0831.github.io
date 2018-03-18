@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+
+Sitemap: https://wei0831.net/sitemap.xml
