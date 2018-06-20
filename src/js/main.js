@@ -43,4 +43,27 @@ $(function() {
             $(this).removeClass('ion-social-youtube-outline');
         }
     );
+
+    $("#youtube2_icon").hover(
+        function() {
+            $(this).addClass('ion-videocam-outline');
+            $(this).removeClass('ion-videocam');
+        },
+        function() {
+            $(this).addClass('ion-videocam');
+            $(this).removeClass('ion-videocam-outline');
+        }
+    );
+
+    $("#twitch_icon").hover(
+        function() {
+            $(this).addClass('ion-social-twitch-outline');
+            $(this).removeClass('ion-social-twitch');
+        },
+        function() {
+            $(this).addClass('ion-social-twitch');
+            $(this).removeClass('ion-social-twitch-outline');
+        }
+    );
+
 });
